@@ -214,3 +214,12 @@ margin-top: 0;
 object-fit: cover;
 
 }
+@include media-breakpoint-up(sm) { 
+  nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(18, 18, 62);
+  }
+}
