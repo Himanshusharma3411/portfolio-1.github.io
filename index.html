@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Himandhu - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
@@ -11,10 +11,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   </head>
   <body>
+    <!--  Navbar section starts-->
+    <div class="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+         
+        </ul>
+        <form class="example" action="">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+      <!--  Navbar Ends starts-->
+
     <!-- <header>
       <nav class="row">
         <div class="col-sm-2 col-md-2 text-white fs-4">Himanshu sharma</div>
@@ -30,11 +51,11 @@
         </div>
       </nav>
     </header> -->
-    <nav class="navbar navbar-expand-lg">
+    <!-- <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-       <!--- <a class="navbar-brand" href="#">Home</a>-->
+       <a class="navbar-brand" href="#">Home</a>-->
        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <div class="collapse navbar-collapse" >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
             <li class="nav-item">
               <a class="nav-link " href="#">Home</a>
@@ -42,12 +63,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li>
+            <li class="nav-item">
                <a class="nav-link href="#skill">Skills</a>
             </li>
-            <li> <a class="nav-link href="#project">Projects</a></li>
-            <li> <a class="nav-link href="#blog">Blogs</a></li>
-            <li> <a class="nav-link href="#contact">Contact</a></li>          
+            <li class="nav-item"> <a class="nav-link href="#project">Projects</a></li>
+            <li class="nav-item"> <a class="nav-link href="#blog">Blogs</a></li>
+            <li class="nav-item"> <a class="nav-link href="#contact">Contact</a></li>          
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -55,8 +76,8 @@
           </form>
         </div>
       </div>
-    </nav>
-    <main>
+    </nav> -->
+    
       <!----------------------------------->
       <section class="firstSection">
         <div class="leftSection">
@@ -64,15 +85,30 @@
           <div>and I am</div>
           <span id="element"></span>
           <div class="button">
-            <button class="btn">Download Resume</button>
-            <button class="btn">Visit Github</button>
+            <button class="btn">
+              <a href="D:\Himanshucode\Project\portfolio-website\Himanshu-sharma-cv.pdf" download="Himanshu-sharma.pdf" target="_blank"> Download Resume</a>
+             </button>
+            <button class="btn">
+              <a href="https://github.com/Himanshusharma3411" target="_blank">Visit Github</a>
+            </button>
           </div>
         </div>
         <div class="rightSection">
-          <img src="bg.png" alt="image" />
+          <img src="D:\Himanshucode\Project/bg.png" alt="image" />
         </div>
       </section>
-
+<!----video section starts here-->
+<div class="video-container">
+  <video autoplay muted loop id="myVideo">
+    <source src="nature.mp4" type="video/mp4">
+    
+  </video>
+</div>
+<div class="content">
+  <h1>Heading</h1>
+  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+</div>
+<!----video section ends here-->
       <!------------------------------------------About me-->
       <section class="about" id="about">
         <h1 class="fs-2 fw-bold py-4 text-center  text-white text-center ">ABOUT ME</h1>
@@ -97,7 +133,7 @@
       <!-------------------------------------------------------------------->
 
       <!----------------- SKILLS STARTS----------------->
-      <div class="skills py-5 " id="skill">
+      <div class="skills py-5 " id="skills">
         <div class="container">
           
             <h1 class="fs-1  fw-bold py-4  text-center text-primary ">TECH SKILLS</h1>
@@ -148,7 +184,7 @@
   <!----------------- SKILLS ENDS----------------->
 
   <!-------------------My projects starts----------------->
-  <main class="Project py-4" id="project">
+  <main class="Project py-4" id="projects">
     <div class="container">
   
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
@@ -187,7 +223,7 @@
 
       
     <!--------------Blog Section start----------------->
-    <div class="backcol" id="blog">
+    <div class="backcol" id="blogs">
     <div class="container">
       <h1 class="fs-1 fw-bold text-center py-3">BLOGS</h1>
     <div class="row mb-2 py-5">
@@ -230,28 +266,36 @@
     <!--------------Blog Section ends----------------->
 
 <!----------------Contact Me starts-------------------->
-<section class="contact justify-content-center">
+<section class="contact justify-content-center" id="contacts">
   <div class="container">
     <header>
-      <h1 class="text-center">Say Hello To me</h1>
+      <h1 class="text-center">contact</h1>
     </header>
     <div class="row">
-<div class="d-grid gap-2 col-4 mx-auto">
+<div class="d-grid gap-4 col-8 mx-auto">
   <form class="m-5 p-2 border-1 w-75 ">
     <div class="mb-3">
-      <input type="email"  class="form-control" id="exampleInputEmail1" placeholder="name@example.com" aria-describedby="emailHelp" value="Enter your E-mail">
+    
+      <input type="text"  class="form-control" id="exampleInputEmail1" placeholder="Name" >
+    
     </div>
     <div class="mb-3">
-      <input type="password" value="Enter your Name" class="form-control" id="exampleInputPassword1">
+    
+      <input type="email"  class="form-control" id="exampleInputEmail1" placeholder="name@example.com" >
+    
     </div>
     <div class="mb-3">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+      <input type="text" placeholder="Phone number" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" ></textarea>
 </div>  
+<button type="submit" class="btn btn-primary btn-lg  px-5 ">Submit</button>
   </form>
 </div>
-<div class="col-4 ">
+<!-- <div class="col-4">
   <button type="submit" class="btn btn-primary btn-lg m-5 p-2 ">Submit</button>
-</div>
+</div> -->
     </div>
    
   </div>
