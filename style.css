@@ -367,6 +367,9 @@ nav ul a  :hover{
 .leftSection .button{
   padding: 30px 0;
 }
+.leftSection .button:hover {
+  padding: 30px 0;
+}
 .leftSection .btn{
   background-color: #0f186d;
   color: white;
