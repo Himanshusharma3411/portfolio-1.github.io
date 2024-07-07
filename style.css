@@ -96,7 +96,8 @@ form.example::after {
   clear: both;
   display: table;
 }
-
+/*    Navbar Ends here       */
+/*    Home Page start here   */
 .left {
   font-size: 1.5 rem;
   margin: 15px 0;
@@ -168,43 +169,11 @@ form.example::after {
   color: gray;
 }
 
-.secondSection .box {
-  background-color: white;
-  height: 2px;
-  margin: 56px 0;
-  width: 80vw;
-  display: flex;
-}
 
-.secondSection .vertical {
-  height: 93px;
-  width: 1px;
-  background-color: white;
-  margin: 0 100px;
-}
 
-.vertical-title {
-  position: relative;
-  width: 150px;
-  top: 90px;
-  right: 90px;
-}
 
-.vertical-desc {
-  position: relative;
-  top: 170px;
-  right: 192px;
-  color: gray;
-  width: 150px;
-  font-size: 9px;
-}
 
-.vertical .image-top {
-  width: 23px;
-  position: relative;
-  top: -35px;
-  left: -10px;
-}
+
 
 /*------------------------Skills start---------------*/
 .skills {
