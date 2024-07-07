@@ -154,7 +154,7 @@ nav ul a{
   padding: 30px 0;
 }
 
-.button .btn a{
+.btn a{
   list-style: none;
   text-decoration: none;
   color: #fff;
@@ -364,11 +364,11 @@ nav ul a  :hover{
  font-size: 3rem;
   width: 30%;
 }
-.leftSection .btn{
+.leftSection .button{
   padding: 30px 0;
 }
 
-.btn button{
+.leftSection .btn{
   background-color: #0f186d;
   color: white;
   border: 2px solid white;
@@ -377,7 +377,7 @@ nav ul a  :hover{
   font-size: 20px;
   padding: 10px;
 }
-.btn button :hover{
+.leftSection .btn :hover{
   color: #fff;
   background-color: #232d86;
   padding: 10px;
