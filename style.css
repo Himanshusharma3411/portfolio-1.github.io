@@ -97,6 +97,7 @@ form.example::after {
   display: table;
 }
 /*    Navbar Ends here       */
+
 /*    Home Page start here   */
 .left {
   font-size: 1.5 rem;
@@ -152,35 +153,84 @@ form.example::after {
 #element {
   color: rgb(46, 46, 198);
 }
-
-/* Second section css */
-.secondSection {
-  max-width: 80vw;
-  margin: auto;
-  height: 80vh;
-
-}
-
-.secondSection h1 {
-  font-size: 1.3rem;
-}
-
-.text-gray {
-  color: gray;
-}
-
-
-
-
-
-
+/*    Home Page Ends here         */
 
 /*------------------------Skills start---------------*/
 .skills {
   background-color: #ecf1f7
 }
+/*About section*/
+.about {
+  position: relative;
+}
+
+.about h1 {
+  position: absolute;
+  font-size: 2rem;
+  margin: 20px 195px;
+}
+
+.about-img {
+  overflow: hidden;
+  height: fit-content;
+
+}
+
+.about .description {
+  position: absolute;
+  top: 100px;
+  width: 40%;
+  height: 50%;
+  margin: 70px 0;
+  font-size: 3rem;
+  text-align: justify;
+
+  background-color: #f1e7e7;
+  color: #000;
+}
+
+.about img {
+
+  width: 100%;
+  height: 50rem;
+  display: block;
+}
+
+/*              About Section ends here      */
 
 /*------------------------Skills end---------------*/
+
+/*        Social media and blogs starts here      */
+.backcol {
+  background-color: rgb(236 241 247);
+}
+
+.social-media button {
+  list-style: none;
+  text-decoration: none;
+}
+/*        Social media and blogs ends here      */
+
+/*     Project section starts here     */
+
+
+.project-1 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  object-fit: cover;
+
+}
+
+.project-2 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  object-fit: cover;
+
+}
+/*     Project section ends here     */
+
 /*-----------------------Footer-----------------*/
 footer {
   background-color: rgb(19, 36, 61);
@@ -221,111 +271,13 @@ footer .footer-rights {
 .footer ul li a {
   color: white;
 }
-
-/*About section*/
-.about {
-  position: relative;
-}
-
-.about h1 {
-  position: absolute;
-  font-size: 2rem;
-  margin: 20px 195px;
-}
-
-.about-img {
-  overflow: hidden;
-  height: fit-content;
-
-}
-
-.about .description {
-  position: absolute;
-  top: 100px;
-  width: 40%;
-  height: 50%;
-  margin: 70px 0;
-  font-size: 3rem;
-  text-align: justify;
-
-  background-color: #f1e7e7;
-  color: #000;
-}
-
-.about img {
-
-  width: 100%;
-  height: 50rem;
-  display: block;
-}
-
-/* Social media and blogs */
-.backcol {
-  background-color: rgb(236 241 247);
-}
-
-.social-media button {
-  list-style: none;
-  text-decoration: none;
-}
-
-/* Project  */
+/*        Footer section ends here     */
 
 
-.project-1 img {
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
-  object-fit: cover;
-
-}
-
-.project-2 img {
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
-  object-fit: cover;
-
-}
 
 @media (min-width: 768px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    height: 50px;
-    background-color: rgba(18, 18, 62);
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul li {
-    list-style: none;
-    margin: 0 20px;
-  }
-
-  nav ul a {
-    text-decoration: none;
-    color: white;
-  }
-
-  nav ul a :hover {
-    color: rgb(129, 129, 214);
-    font-size: 1 rem;
-  }
-
-  .left {
-    font-size: 1 rem;
-    margin: 10px 0;
-  }
-
-  .right {
-    margin: 10px 0;
-  }
-
+ 
+ 
   .firstSection {
     display: flex;
     justify-content: space-around;
