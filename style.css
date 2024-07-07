@@ -84,10 +84,7 @@ content: "";
 clear: both;
 display: table;
 }
-/* .navbar{
-  background-color:rgb(7, 7, 54) ;
-  color: white ;
-} */
+
 #myVideo {
 display: block;
   width:100%;
@@ -381,6 +378,7 @@ nav ul a  :hover{
 }
 .leftSection .btn a:hover{
   color: #111;
+  background-color: #6674ea;
 
 }
 .rightSection {
