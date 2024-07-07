@@ -230,7 +230,7 @@ background-color: #ecf1f7
 }
 /*------------------------Skills end---------------*/
 /*-----------------------Footer-----------------*/
-.footer{  
+footer{  
   background-color: rgb(19, 36, 61);
   height: 250px;
   
@@ -379,6 +379,11 @@ nav ul a  :hover{
 .leftSection .btn a:hover{
   color: #111;
   background-color: #6674ea;
+  padding:10px;
+  cursor: pointer;
+  border: 2px solid blue;
+  font-size: 20px;
+  border-radius: 6px;
 
 }
 .rightSection {
