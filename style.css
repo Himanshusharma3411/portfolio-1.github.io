@@ -380,7 +380,7 @@ nav ul a  :hover{
 .leftSection .btn :hover{
   color: #fff;
   background-color: #232d86;
-  padding: 6px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 6px;
   border: 2px solid blue;
@@ -388,7 +388,7 @@ nav ul a  :hover{
 
 }
 .rightSection {
- 
+
   width: 30%;
 }
 .rightSection img{
