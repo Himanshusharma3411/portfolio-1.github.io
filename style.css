@@ -277,7 +277,6 @@ footer .footer-rights {
 
 @media (min-width: 768px) {
  
- 
   .firstSection {
     display: flex;
     justify-content: space-around;
@@ -285,16 +284,13 @@ footer .footer-rights {
     align-items: center;
     margin: 70px 0;
   }
-
   .leftSection {
     font-size: 3rem;
     width: 30%;
   }
-
   .leftSection .button {
     padding: 30px 0;
   }
-
   .leftSection .btn {
     background-color: #0f186d;
     color: white;
@@ -315,17 +311,14 @@ footer .footer-rights {
     font-size: 20px;
 
   }
-
   .rightSection {
 
     width: 30%;
   }
-
   .rightSection img {
     width: 80%;
     margin: 23px 0;
   }
-
   header h1 {
     font-size: 5rem;
   }
